@@ -1,16 +1,17 @@
-# revision 30266
+# revision 33023
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /macros/latex/contrib/babel-contrib/estonian
+# catalog-date 2014-02-21 00:49:56 +0100
+# catalog-license lppl1.3
+# catalog-version 1.1
 Name:		texlive-babel-estonian
-Version:	20131013
-Release:	5
-Summary:	TeXLive babel-estonian package
+Epoch:		1
+Version:	1.1
+Release:	1
+Summary:	Babel support for Estonian
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/estonian
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.doc.tar.xz
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.source.tar.xz
@@ -20,7 +21,9 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-TeXLive babel-estonian package.
+The package provides the language definition file for support
+of Estonian in babel. Some shortcuts are defined, as well as
+translations to Estonian of standard "LaTeX names".
 
 %post
     %{_sbindir}/texlive.post
