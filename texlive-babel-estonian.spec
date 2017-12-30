@@ -1,13 +1,7 @@
-# revision 33023
-# category Package
-# catalog-ctan /macros/latex/contrib/babel-contrib/estonian
-# catalog-date 2014-02-21 00:49:56 +0100
-# catalog-license lppl1.3
-# catalog-version 1.1
 Name:		texlive-babel-estonian
 Epoch:		1
-Version:	1.1
-Release:	5
+Version:	1.1a
+Release:	1
 Summary:	Babel support for Estonian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/estonian
@@ -35,11 +29,10 @@ translations to Estonian of standard "LaTeX names".
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/generic/babel-estonian/estonian.ldf
-%doc %{_texmfdistdir}/doc/generic/babel-estonian/estonian.pdf
+%{_texmfdistdir}/tex/generic/babel-estonian
+%doc %{_texmfdistdir}/doc/generic/babel-estonian
 #- source
-%doc %{_texmfdistdir}/source/generic/babel-estonian/estonian.dtx
-%doc %{_texmfdistdir}/source/generic/babel-estonian/estonian.ins
+%doc %{_texmfdistdir}/source/generic/babel-estonian
 
 #-----------------------------------------------------------------------
 %prep
