@@ -1,7 +1,7 @@
 Name:		texlive-babel-estonian
 Epoch:		1
 Version:	1.1a
-Release:	1
+Release:	2
 Summary:	Babel support for Estonian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/estonian
