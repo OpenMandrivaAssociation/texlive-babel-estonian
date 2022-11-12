@@ -1,14 +1,14 @@
 Name:		texlive-babel-estonian
 Epoch:		1
-Version:	1.1a
-Release:	2
+Version:	38064
+Release:	1
 Summary:	Babel support for Estonian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/estonian
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.r38064.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.doc.r38064.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.source.r38064.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,12 +20,12 @@ of Estonian in babel. Some shortcuts are defined, as well as
 translations to Estonian of standard "LaTeX names".
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +36,8 @@ translations to Estonian of standard "LaTeX names".
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
