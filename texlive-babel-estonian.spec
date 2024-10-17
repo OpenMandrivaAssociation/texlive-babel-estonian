@@ -4,7 +4,7 @@ Version:	38064
 Release:	2
 Summary:	Babel support for Estonian
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/estonian
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/estonian
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-estonian.doc.r%{version}.tar.xz
